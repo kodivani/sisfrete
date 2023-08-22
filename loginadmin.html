@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Roda Presa Alinhamento Automotivo</title>
 </head>
+
 <body>
     <div class="main-login">
         <div class="left-login">
             <div class="wrapper">
-                <form action="">
+                <form action="adm.php" method="GET">
                     <h1>administrador</h1>
                     <div class="input-box">
-                        <input type="text" placeholder="Usuário" required>
+                        <input type="text" name="nome" placeholder="Usuário" required>
                         <i class='bx bxs-user'></i>
                     </div>
                     <div class="input-box">
-                        <input type="password" placeholder="Senha" required>
+                        <input type="password" name="senha" placeholder="Senha" required>
                         <i class='bx bxs-lock-alt'></i>
                     </div>
                     <button type="submit" class="btn">Entrar</button>
@@ -31,4 +33,5 @@
         </div>
     </div>
 </body>
+
 </html>
